@@ -31,7 +31,7 @@
        $ cmake CMakeLists.txt
        $ make -j4
        $ cd port/PyAssimp/
-       $ sudo python set.py install
+       $ sudo python setup.py install
     
     Then it should be able to solve the error.
 
