@@ -3,20 +3,22 @@
 @@@ 6th-March 2020
 
 1) Create ROS python package
+   $ cd ~/catkin_ws/src
    $ catkin_create_pkg ur3_ai_controller 
 
 2) Confirm you have import all necessary libraries
-   import numpy as np (V)
-   import time (V)
-   import sys (V)
-   import copy (V)
-   import rospy (V)
-   import moveit_commander (X)
-   import moveit_msgs.msg (V)
-   import geometry_msgs.msg (V)
-   from math import pi (V)
-   from std_msgs.msg import String (V)
-
+   $ python2
+   >> import numpy as np              (V)
+   >> import time                     (V)
+   >> import sys                      (V)
+   >> import copy                     (V)
+   >> import rospy                    (V)
+   >> import moveit_msgs.msg          (V)
+   >> import geometry_msgs.msg        (V)
+   >> from math import pi             (V)
+   >> from std_msgs.msg import String (V)
+   >> import moveit_commander         (X)
+   
    V: means ususally will not have problem during import
    X: means you may encounter error
 
