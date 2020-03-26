@@ -27,8 +27,6 @@
     <origin xyz="0 0.038 -0.02" rpy="0 0 0"/>
   </joint>
 
-  </joint>
-
 2) Set joint_limited = true in ur3_robot_urdf.xacro
   <xacro:ur3_robot prefix="" joint_limited="true"
     transmission_hw_interface="$(arg transmission_hw_interface)"
@@ -40,7 +38,8 @@
 
 5) Generate package
 
-6) $ catkin_make
+6) $ cd ~/catkin_ws/
+   $ catkin_make
 
 7) $ source devel/setup.bash
 
