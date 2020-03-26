@@ -22,6 +22,8 @@
    V: means ususally will not have problem during import
    X: means you may encounter error
 
+   Use exit() to exit the python prompt
+
    For import moveit_commander, you may have error about "Failed to import pyassimp, see https://github.com/ros-planning/moveit/issues/86 for more info"
    Solutions:
        $ git clone https://github.com/assimp/assimp.git
